@@ -1,5 +1,6 @@
-public class Main {
+import lesson1.HelloWorld;
 
+public class Main {
 
     // Steps to create a variable in Java
     // ----------------------------------
@@ -18,11 +19,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int count = 30;
-
-        System.out.println("I like pizza!");
-        System.out.println("It's really good. I ate " + count + " pizzas last year");
-
+        HelloWorld.run();
 
         int age = 21;
         int year = 2025;
