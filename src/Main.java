@@ -22,5 +22,39 @@ public class Main {
 
         System.out.println("I like pizza!");
         System.out.println("It's really good. I ate " + count + " pizzas last year");
+
+
+        int age = 21;
+        int year = 2025;
+        int quantity = 1;
+
+        double price = 19.99;
+        double gpa = 3.5;
+        double temperature = -12.5;
+
+        char grade = 'A'; // single character, single quotes
+        char symbol = '!';
+        char currency = '$';
+
+        boolean isStudent = true;
+        boolean forSale = false;
+        boolean isOnline = true;
+
+        String name = "Bro Code"; // multiple characters, double quotes
+        String food = "pizza";
+        String email = "fake123@gmail.com";
+        String car = "Mustang";
+        String color = "red";
+
+        System.out.println("Your choice is a " + color + " " + year + " " + car);
+        System.out.println("The price is: " + currency + price);
+
+        if(forSale){
+            System.out.println("There is a " + car + " for sale");
+        }
+        else{
+            System.out.println("The " + car + " is not for sale");
+        }
+
     }
 }
