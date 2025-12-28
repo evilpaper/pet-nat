@@ -21,5 +21,7 @@ public class UserInput {
         area = width * height;
 
         System.out.println("The area is: " + area);
+
+        scanner.close();
     }
 }
